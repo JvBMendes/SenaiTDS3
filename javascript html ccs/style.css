@@ -1,0 +1,20 @@
+
+.primeiraDivIDClass{
+    background-color: rgba(150, 27, 5, 0.295);
+}
+
+.principal{
+    background: lightsalmon;
+    width: 100%;
+    height: 86vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.columnLabelWidthInput{
+    display: flex;
+    flex-direction: column;
+}

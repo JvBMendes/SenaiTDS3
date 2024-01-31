@@ -12,3 +12,7 @@ git commit -m "texto"
 
 git push
 
+//EXTENSOES 
+
+git-graph -> rastreia o repositorio
+live server -> para nao precisar atualizar pagina sempre
