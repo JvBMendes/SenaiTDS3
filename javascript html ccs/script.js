@@ -31,5 +31,25 @@ function Media(){
     var num2 = document.getElementById("num10").valueAsNumber;
     var num3 = document.getElementById("num11").valueAsNumber;
     var res = (num1+num2+num3)/3;
+
+    var x = document.getElementById("resMedia")
+    var resboa = document.getElementById("cond")
+    var resruim = document.getElementById("condN")
+    if (res > 7){
+        x.style.background = "green"
+        resboa.style.display = "block"
+        resboa.style.color = "green"
+        resruim.style.display = "none"
+    }
+    else{
+        x.style.background = "red"
+        resruim.style.display = "block"
+        resruim.style.color = "red"
+        resboa.style.display = "none"
+    }
     document.getElementById("resMedia").textContent = res.toFixed(3)
+}
+
+function limpar(){
+    window.location.reload();
 }

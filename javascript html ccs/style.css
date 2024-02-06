@@ -84,3 +84,11 @@ h1{
     justify-content: center;
     align-items: center;
 } 
+
+.condicional{
+    display: none;
+}
+
+.condicionalNegada{
+    display: none;
+}
