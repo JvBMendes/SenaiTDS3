@@ -26,6 +26,9 @@ ul{
     width: 100%;
     flex-wrap: wrap;
 }
+img {
+    border-radius: 50%;
+  }
 a{
     color: rgb(2, 72, 153);
     opacity: 0.8;
@@ -48,8 +51,9 @@ a:hover{
     height: 500px;
     background-color: green;
     display: flex;
-    align-items: row;
+    align-items: center;
     justify-content: center;
+    gap: 50px;
 }
 .profile2{
     width: 100%;
