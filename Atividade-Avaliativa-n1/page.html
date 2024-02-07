@@ -19,11 +19,17 @@
     </header>
 
     <div id="p1" class="profile1">
-
-        <div><img src="https://www.psicologo.com.br/wp-content/uploads/sou-uma-pessoa-boa-ou-nao.jpg" alt="pessoa" width="500" height="500"></div>
-        <div class=""><h3>Joao Barcelos</h3></div>
-        <div><p>biografia</p></div>
+        <div class="left-profile1">
+            <div class="rel">
+                <img class ="img1" src="https://cd0d7242d8.cbaul-cdnwnd.com/081cc04a5603ba459aab0b3e8511ec1e/200000002-2bb6e2caf5/caricatura-rosto-e-busto-rosto.jpg?ph=cd0d7242d8" alt="pessoa" width="500" height="500">
+            </div>
+         </div>
+            <div class="right-profile1">
+                <h3>Joao Barcelos</h3>
+                <p></p>
+            </div>
     </div>
+   
     <div id="p2" class="profile2">
         <p>perfil 02</p>
     </div>
@@ -31,7 +37,30 @@
         <p>Tecnologias</p>
     </div>
     <div id="contact" class="cont">
-        <p>Contato</p>
+        <div>
+            <div>
+                <h3>Contato</h3>
+                <p>Mande uma mensagem para nossa equipe</p>
+            </div>
+        </div>
+        <div>
+            <div>
+                <label for="nome">Nome</label>
+                <input type="text" id="nome">
+            </div>
+            <div>
+                <label for="mensagem">Mensagem</label>
+                <textarea type="text" id="mensagem"></textarea>
+            </div>
+        </div>
+        <button onclick="conferirMensagemWhatWhatsApp()">Conferir dados inseridos</button>
+        <div>
+            <div>
+                <p>Nome : <span id="confNome"></span></p>
+                <p>Mensagem: <span id="confMsg"></span></p>
+            </div>
+            <button onclick="enviar()">ZAP</button>
+        </div>
     </div>
 </body>
 </html>
