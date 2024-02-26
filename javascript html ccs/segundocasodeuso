@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-26T20:06:13.811Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="czBKwakX48uXgHTI1wY_" version="23.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-26T20:07:45.162Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="5yT0nySk414hfqwiIaCd" version="23.1.7" type="github">
   <diagram name="Página-1" id="mp1OG9W7X4-ngt5OquIf">
     <mxGraphModel dx="1247" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -17,10 +17,10 @@
           <mxGeometry x="740" y="250" width="40" height="80" as="geometry" />
         </mxCell>
         <mxCell id="lr99IDNlA9kcbS7NaGh4-6" value="Cinema" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="364" y="70" width="99" height="70" as="geometry" />
+          <mxGeometry x="375.5" y="50" width="99" height="70" as="geometry" />
         </mxCell>
         <mxCell id="lr99IDNlA9kcbS7NaGh4-8" value="Cadastrar Usuario" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="354" y="150" width="120" height="50" as="geometry" />
+          <mxGeometry x="365" y="150" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lr99IDNlA9kcbS7NaGh4-9" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" target="lr99IDNlA9kcbS7NaGh4-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -29,7 +29,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lr99IDNlA9kcbS7NaGh4-10" value="Alterar Cartaz" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="354" y="410" width="120" height="50" as="geometry" />
+          <mxGeometry x="364" y="410" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lr99IDNlA9kcbS7NaGh4-11" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="lr99IDNlA9kcbS7NaGh4-4" target="lr99IDNlA9kcbS7NaGh4-10">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -39,7 +39,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lr99IDNlA9kcbS7NaGh4-15" value="Preencher informação" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="344" y="270" width="140" height="50" as="geometry" />
+          <mxGeometry x="354" y="270" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lr99IDNlA9kcbS7NaGh4-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="lr99IDNlA9kcbS7NaGh4-10" target="lr99IDNlA9kcbS7NaGh4-10">
           <mxGeometry relative="1" as="geometry" />
@@ -51,7 +51,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lr99IDNlA9kcbS7NaGh4-19" value="Cancelar Reserva" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="224" y="320" width="120" height="50" as="geometry" />
+          <mxGeometry x="210" y="320" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lr99IDNlA9kcbS7NaGh4-20" value="" style="endArrow=none;html=1;rounded=0;sketch=1;curveFitting=1;jiggle=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="lr99IDNlA9kcbS7NaGh4-3" target="lr99IDNlA9kcbS7NaGh4-19">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -60,7 +60,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lr99IDNlA9kcbS7NaGh4-21" value="Realizar Reembolso" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="484" y="320" width="120" height="50" as="geometry" />
+          <mxGeometry x="485" y="320" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lr99IDNlA9kcbS7NaGh4-22" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lr99IDNlA9kcbS7NaGh4-21" target="lr99IDNlA9kcbS7NaGh4-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
