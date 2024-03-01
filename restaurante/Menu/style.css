@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../assets/fundo-restaurante.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.wrap-everything{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4vh;
+}
+
+.wrap-image{
+    animation: fromTop 400ms linear;
+}
+
+@keyframes fromTop{
+    0%{
+        opacity: 0.1;
+        transform: translateY(-200px);
+    }
+    100%{
+        opacity: 0.8;
+        transform: translateY(0px);
+    }
+}
+
+.img-style{
+    opacity: 0.8;
+    border-radius: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+p{
+    color: aliceblue;
+    font-family: "Poppins", sans-serif;
+    font-size: 4rem;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.748);
+    transition: all 200ms linear;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+.wrap-p{
+    text-align: center;
+    width: 100%;
+}
+
+.wrap-p1{
+    animation: fromRight 400ms linear;
+
+}
+
+.wrap-p2{
+    animation: fromLeft 400ms linear;
+
+}
+
+@keyframes fromRight{
+    0%{
+        opacity: 0.1;
+        transform: translateX(+200px);
+    }
+    100%{
+        opacity: 0.8;
+        transform: translateX(0px);
+    }
+}
+@keyframes fromLeft{
+    0%{
+        opacity: 0.1;
+        transform: translateX(-200px);
+    }
+    100%{
+        opacity: 0.8;
+        transform: translateX(0px);
+    }
+}
