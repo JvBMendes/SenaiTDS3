@@ -2,10 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link rel="stylesheet" href="style.css"/>
     <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -15,48 +19,66 @@
             <li><a href="#tec">Tecnologias</a></li>
             <li><a href="#contact">Contato</a></li>
         </ul>
-        
     </header>
-
-    <div id="p1" class="profile1">
-        <div class="left-profile1">
+    <div id="p1" class="profile01">
+        <div class="left-profile01">
             <div class="rel">
-                <img class ="img1" src="https://cd0d7242d8.cbaul-cdnwnd.com/081cc04a5603ba459aab0b3e8511ec1e/200000002-2bb6e2caf5/caricatura-rosto-e-busto-rosto.jpg?ph=cd0d7242d8" alt="pessoa" width="500" height="500">
+                <img class="img-01" src="https://s2-techtudo.glbimg.com/JsE244mucjKWLYtNgeiDyfVYlJQ=/0x129:1024x952/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2023/7/i/ME2AxRRoygUyFPCDe0jQ/3.png" alt="Imagem de perfil">
             </div>
-         </div>
-            <div class="right-profile1">
-                <h3>Joao Barcelos</h3>
-                <p></p>
-            </div>
+        </div>
+        <div class="right-profile01">
+            <h2 class="nome-p1">Perfil 01</h2>
+            <p class="p-p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores repudiandae numquam consequuntur tempore quae rerum laboriosam soluta error? Doloribus suscipit, unde vel repudiandae nulla maiores dolore modi. Voluptas, modi dolorem?</p>
+        </div>
     </div>
-   
-    <div id="p2" class="profile2">
-        <p>perfil 02</p>
+    <div id="p2" class="profile02">
+        <div class="right-profile02">
+            <div class="rel">
+                <img class="img-01" src="https://s2-techtudo.glbimg.com/JsE244mucjKWLYtNgeiDyfVYlJQ=/0x129:1024x952/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2023/7/i/ME2AxRRoygUyFPCDe0jQ/3.png" alt="Imagem de perfil">
+            </div>
+        </div>
+        <div class="left-profile02">
+            <h2 class="nome-p2">Perfil 02</h2>
+            <p class="p-p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores repudiandae numquam consequuntur tempore quae rerum laboriosam soluta error? Doloribus suscipit, unde vel repudiandae nulla maiores dolore modi. Voluptas, modi dolorem?</p>
+        </div>
     </div>
     <div id="tec" class="tec">
-        <p>Tecnologias</p>
+        <h2>Tecnologias</h2>
+        <img src="./Images/iconesTecno.jpg" alt="Icones" width="400px" height="auto" style="border-radius: 5%;">
+        <div class="flex-cards">
+            <div class="card">
+                <h3>HTML</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, voluptatum exercitationem repudiandae in, ducimus facere quis modi voluptate maxime assumenda minima ullam amet magni dicta eum voluptas error placeat non!</p>
+            </div>
+            <div class="card">
+                <h3>CSS</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ipsum facilis consectetur cum aliquid dolore officia qui quo amet! Nisi voluptatem eius, quaerat dicta repudiandae dignissimos omnis ratione delectus numquam?</p>
+            </div>
+            <div class="card">
+                <h3>JAVASCRIPT</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis voluptate minima nesciunt dolores pariatur omnis consequuntur, doloribus et odio delectus necessitatibus reprehenderit, eum accusamus ex cum deserunt tenetur. Aspernatur, adipisci?</p>
+            </div>
+        </div>
     </div>
-    <div id="contact" class="cont">
-        <div>
+    <div id="contact" class="contact">
+        <div class="wrap-divs-contact">
             <div>
                 <h3>Contato</h3>
-                <p>Mande uma mensagem para nossa equipe</p>
+                <p>Mande uma mensagem para nossa equipe!</p>
             </div>
+            <div>
+                <div>
+                    <input class="input-style1" type="text" id="nome" placeholder="Digite o seu nome">
+                </div>
+                <div>
+                    <textarea class="input-style1" type="text" id="mensagem" placeholder="Digite a sua mensagem"></textarea>
+                </div>
+            </div>
+            <button onclick="conferirMesagemWhatsApp()">Conferir dados inseridos</button>
         </div>
-        <div>
+        <div class="wrap-divs-contact">
             <div>
-                <label for="nome">Nome</label>
-                <input type="text" id="nome">
-            </div>
-            <div>
-                <label for="mensagem">Mensagem</label>
-                <textarea type="text" id="mensagem"></textarea>
-            </div>
-        </div>
-        <button onclick="conferirMensagemWhatWhatsApp()">Conferir dados inseridos</button>
-        <div>
-            <div>
-                <p>Nome : <span id="confNome"></span></p>
+                <p>Nome: <span id="confNome"></span></p>
                 <p>Mensagem: <span id="confMsg"></span></p>
             </div>
             <button onclick="enviar()">ZAP</button>

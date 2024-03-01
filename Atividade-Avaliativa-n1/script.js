@@ -1,22 +1,27 @@
 var nomeGlobal;
 var mensagemGlobal;
 
-function conferirMensagemWhatWhatsApp(){
-var nome = document.getElementById("nome").value;
-var mensagem = document.getElementById("mensagem").value;
-console.log(nome,mensagem)
+function conferirMesagemWhatsApp(){
+    var nome = document.getElementById("nome").value;
+    var mensagem = document.getElementById("mensagem").value;
 
-nomeGlobal = nome;
-mensagemGlobal = mensagem;
+    nomeGlobal = nome;
+    mensagemGlobal = mensagem;
 
-document.getElementById("confNome").textContent = nome;
-document.getElementById("confMsg").textContent = mensagem;
+    document.getElementById("confNome").textContent = nome;
+    document.getElementById("confMsg").textContent = mensagem;
 }
 
 function enviar(){
-    var numeroTelefone = "5541999999999"
+    var numeroTelefone = "5541999999999";
+    console.log(nomeGlobal, mensagemGlobal)
+    var linkWhatsApp = 
+    "https://wa.me/" + 
+    numeroTelefone + 
+    "?text=NOME: " + 
+    nomeGlobal + 
+    " - " + 
+    mensagemGlobal;
 
-    var linkWhatsApp = "https://wa.me/" + numeroTelefone + "?text=NOME: " + nomeGlobal + " - " + mensagemGlobal;
-
-    window.open(linkWhatsApp,"_blank")
+    window.open(linkWhatsApp, "_blank")
 }
